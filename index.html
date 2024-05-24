@@ -220,6 +220,19 @@
       })(document, 'script');
      </script>
      -->
+      <!-- Chatbot Icon -->
+      <div id="chatbot-icon" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000; cursor: pointer;">
+        <img src="images/chatbot.png" alt="Chatbot Icon" style="width: 50px; height: 50px;">
+      </div>
+
+      <script>
+        document.getElementById('chatbot-icon').addEventListener('click', function() {
+            window.location.href = 'bot.html';
+        });
+      </script>
+
+
+
     
   </body>
 </html>
